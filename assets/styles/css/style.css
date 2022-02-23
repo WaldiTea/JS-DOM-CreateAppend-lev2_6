@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 25%;
+  margin: auto;
+  display: block;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+body {
+  background: #f09d7a;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+body .title {
+  font-size: 2.5rem;
+  color: #a2433f;
+  padding: 5% 2%;
+}
+
+body .button {
+  background: #e96e71;
+  color: #fff;
+  font-size: 1.5rem;
+  border: 1px solid #a2433f;
+  border-radius: 0.5em;
+  padding: 0.25em 0.5em;
+  margin-left: 2em;
+}
+
+body .button:hover {
+  cursor: pointer;
+}
+
+body .button:active {
+  background: #a2433f;
+}
+/*# sourceMappingURL=style.css.map */
